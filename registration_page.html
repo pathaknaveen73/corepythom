@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+    </head>
+    <body>
+        <form action="#" method="GET">
+            <label for="fname">Email:</label>
+            <input type="email"  name="email" id="email" required></br></br>
+        
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+            
+            </br></br>
+
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname"></br></br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname"></br></br>
+            
+            <label for="fname">Email:</label>
+            DOB<input type="date" name="DOB"></br></br>
+            
+            <label for="fname">Gender:</label>
+            Male <input type="radio" name="Gender" value="male"> 
+            Female   <input type="radio" name="Gender" value="female"></br></br>
+            Mobile Number:  <input type="text" name="Mobile"required maxlength="10"></br></br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
